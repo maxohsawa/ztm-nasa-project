@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/maxohsawa/ztm-nasa-project/issues"
   },
-  "homepage": "https://github.com/maxohsawa/ztm-nasa-project#readme"
+  "homepage": "https://github.com/maxohsawa/ztm-nasa-project#readme",
+  "dependencies": {
+    "morgan": "^1.10.0"
+  }
 }
