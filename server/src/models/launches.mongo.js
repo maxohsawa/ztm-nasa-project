@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const planetsSchema = require("./planets.mongo.js");
 
 const launchesSchema = new mongoose.Schema({
   flightNumber: {
