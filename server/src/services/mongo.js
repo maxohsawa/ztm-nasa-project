@@ -18,6 +18,11 @@ async function mongoConnect() {
   mongoose.connect(MONGODB_ATLAS_URL);
 }
 
+async function mongoDisconnect() {
+  await mongoose.disconnect();
+}
+
 module.exports = {
   mongoConnect,
+  mongoDisconnect,
 };
